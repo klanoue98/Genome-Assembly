@@ -1,0 +1,57 @@
+name: /home/klanoue/miniconda3/envs/assembly
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=conda_forge
+  - _openmp_mutex=4.5=2_gnu
+  - bam2fastx=1.3.0=he1c1bb9_8
+  - blast=2.5.0=hc0b0e79_3
+  - boost=1.78.0=py310hc4a4660_0
+  - boost-cpp=1.78.0=h75c5d50_1
+  - bzip2=1.0.8=h7f98852_4
+  - ca-certificates=2023.11.17=hbcca054_0
+  - curl=7.71.1=he644dc0_3
+  - flye=2.9=py310h590eda1_1
+  - htslib=1.9=h4da6232_3
+  - icu=70.1=h27087fc_0
+  - krb5=1.17.2=h926e7f8_0
+  - ld_impl_linux-64=2.36.1=hea4e1c9_2
+  - libblas=3.9.0=15_linux64_openblas
+  - libcblas=3.9.0=15_linux64_openblas
+  - libcurl=7.71.1=hcdd3856_3
+  - libdeflate=1.2=h516909a_1
+  - libedit=3.1.20191231=he28a2e2_2
+  - libffi=3.4.2=h7f98852_5
+  - libgcc-ng=12.1.0=h8d9b700_16
+  - libgfortran-ng=12.1.0=h69a702a_16
+  - libgfortran5=12.1.0=hdcd56e2_16
+  - libgomp=12.1.0=h8d9b700_16
+  - liblapack=3.9.0=15_linux64_openblas
+  - libnsl=2.0.0=h7f98852_0
+  - libopenblas=0.3.20=pthreads_h78a6416_1
+  - libssh2=1.10.0=ha56f1ee_2
+  - libstdcxx-ng=12.1.0=ha89aaad_16
+  - libuuid=2.32.1=h7f98852_1000
+  - libzlib=1.2.12=h166bdaf_2
+  - lz4-c=1.9.3=h9c3ff4c_1
+  - ncurses=6.3=h27087fc_1
+  - numpy=1.23.1=py310h53a5b5f_0
+  - openssl=1.1.1w=hd590300_0
+  - pbbam=1.0.6=hc16d5b3_1
+  - pbcopper=1.3.0=h3e4de3e_0
+  - python=3.10.5=h582c2e5_0_cpython
+  - python_abi=3.10=2_cp310
+  - readline=8.1.2=h0f457ee_0
+  - setuptools=63.3.0=py310hff52083_0
+  - sqlite=3.39.2=h4ff8645_0
+  - tk=8.6.12=h27826a3_0
+  - tzdata=2022a=h191b570_0
+  - xz=5.2.5=h516909a_1
+  - zlib=1.2.12=h166bdaf_2
+  - zstd=1.5.2=h8a70e8d_3
+  - pip:
+      - pip==22.2.2
+      - wheel==0.37.1
+prefix: /home/klanoue/miniconda3/envs/assembly
