@@ -150,7 +150,7 @@ Total Run Time: 04:30:00
 
 Final Data File: scaffolds_FINAL.fasta
 
-## 04_Final Stats
+## 04_Polishing
 
 **Run script quast.sh**
 
@@ -161,13 +161,22 @@ A conda environment was created with the required packages: pilonenv
 **Run script pilon.sh**
 
 Input genome size according to Pilon: 1032247141
-
 Run Time:16:17:00
 
 Output:
 Mean total coverage: 189
 Polished genome location: $WORK/04_polish/emo_32124_hifi/pilon/emo_32124_hifi.pilon.fasta
 
-### QC
+## Final QC
 
 Run quast.sh on the raw assemblies and the scaffolded assemblies
+
+Final Genome Stats
+
+Name: emo_32124_hifi.pilon
+- Num. Contigs: 380
+- Largest Contig: 41903229
+- Total Length: 1027988111
+- N50: 34232894
+- L50: 14
+- Num N's: 53164
