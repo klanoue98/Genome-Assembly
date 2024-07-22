@@ -2,6 +2,10 @@
 
 Records the final workflow for the de novo genome assembly of the red grouper (Epinephelus morio) genome. The purpose of this genome is for future population and aging studies, primarily by the Marine Genomics Lab at TAMUCC. 
 
+The red grouper is expected to have 24 chromosomes, at a genome size of ~1Mbp. 
+
+Additional files that are not publicly available in this repository are available on the Marinegenomics Lab Github
+
 ## Data
 WD: /work/marinegnomics/klanoue/red_grouper_genome_assembly
 
@@ -11,6 +15,9 @@ Data available for this assembly includes PacBio Hifi reads and HiC data. All or
 #### PacBio Hifi Reads
 
 There are six hifi .bam files available for the red grouper assembly. Each read comes with a .hifi_reads.bam and a .bam.pbi file type. The .bam file contains the needed sequences to be used in genome assembly. The .pbi file is an index file corresponding to its .bam file. 
+
+#### HiC Reads
+
 
 ## 01_Preprocess
 
@@ -44,8 +51,6 @@ Total Data
 Estimated genome size
 - 828.4 Mbp -> 0.808984375 Gbp
 
-*Total sequencing depth*
-
 ### Bam to FastQ
 
 Program bam2fastx is used to transform PacBio bam files to fastq files. 
@@ -57,7 +62,7 @@ Run Time 3:00:00
 
 ### Estimate genome characteristics
 
-Run reads through program jellyfish to estimate genome size, heterozygosity, and number of unique sequences
+Run reads through jellyfish and GUI Genomescope to estimate genome size, heterozygosity, and number of unique sequences
 
 **Run script jellyfish.sh**
 
